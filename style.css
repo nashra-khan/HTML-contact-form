@@ -1,0 +1,48 @@
+h2{
+    font-size: 30;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+body{background-image:url("images/bg5.webp");
+    background-size: cover;
+
+form{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+input[type="text"], input[id="message"], input[type="email"], textarea{
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: burlywood;
+
+}
+input[type="submit"]{
+    padding: 10px 20px;
+    background-color:chocolate;
+    color: white;
+    border: 2px black solid;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius:15px ;
+}
+}
+div.container{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color:azure;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    border-color: black;
+}
